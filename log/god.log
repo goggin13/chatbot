@@ -1,0 +1,23 @@
+I [2014-04-04 19:47:00]  INFO: Loading run.god.rb
+I [2014-04-04 19:47:00]  INFO: Syslog enabled.
+I [2014-04-04 19:47:00]  INFO: Using pid file directory: /home/goggin/.god/pids
+
+***********************************************************************
+*
+* Event conditions are not available for your installation of god.
+* You may still use and write custom conditions using the poll system
+*
+***********************************************************************
+
+I [2014-04-04 20:28:11]  INFO: Loading run.god.rb
+I [2014-04-04 20:28:11]  INFO: Syslog enabled.
+I [2014-04-04 20:28:11]  INFO: Using pid file directory: /home/goggin/.god/pids
+
+***********************************************************************
+*
+* Event conditions are not available for your installation of god.
+* You may still use and write custom conditions using the poll system
+*
+***********************************************************************
+
+E [2014-04-04 20:28:11] ERROR: Socket drbunix:///tmp/god.17165.sock already in use by another instance of god
