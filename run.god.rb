@@ -2,7 +2,7 @@ require 'god'
 
 God.watch do |w|
   w.name = "reginald"
-  w.start = "bundle exec ruby /home/goggin/projects/butler/main.rb"
+  w.start = "cd /home/goggin/projects/butler && bundle exec ruby main.rb"
   w.keepalive(
     :memory_max => 100.megabytes,
     :cpu_max => 10.percent
