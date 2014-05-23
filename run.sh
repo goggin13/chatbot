@@ -1,1 +1,1 @@
-god --config-file run.god.rb --log-level debug --log log/god.log
+god --config-file run.god.rb --log-level info --log log/god.log

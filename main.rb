@@ -12,8 +12,6 @@ reggie = Reginald::Reginald.new(
 reggie.listen(/define (\w+)/i, "definitions_controller#define")
 reggie.listen(/ping/i, "ping_controller#pong")
 
-reggie.run
+t1, t2 = reggie.run
 
-while true
-  sleep 10
-end
+t1.join
